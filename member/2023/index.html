@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+        <nav id="navbar" class="navbar is-info" role="navigation" aria-label="main navigation">
             <!-- 導覽列LOGO -->
             <div class="navbar-brand">
                 <a id="nav_brand" class="navbar-item" href="/">
@@ -16,7 +16,7 @@
                     TTUSSC
                 </a>
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a id="navBurger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -24,7 +24,7 @@
             </div>
             
             <!-- 導覽列選項 -->
-            <div class="navbar-menu">
+            <div id="navMain" class="navbar-menu">
                 <div class="navbar-start">
                     <a id="nav_about" class="navbar-item" href="/about/">
                         關於
@@ -347,5 +347,6 @@
                 </p>
             </div>
         </footer>
+        <script src="/index.js"></script>
     </body>
 </html>
