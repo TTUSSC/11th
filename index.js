@@ -1,4 +1,4 @@
-// navbar 手機板開合
+// navbar 手機導覽列開合控制
 const mobileBurger = () => {
     const navbarBurger = document.querySelector('#navBurger');
     const navbarItem = document.querySelector('#navMain');
