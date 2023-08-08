@@ -100,11 +100,18 @@
                 <div id="content_mid" class="column is-four-fifths">
                     <div class="container">
                         <h1 class="title">社團課表</h1>
+                        <div class="columns">
+                            <div class="column"></div>
+                            <div class="column is-8">
+                                <progress id="2023-first" class="progress is-info" value="0" max="100">0%</progress>
+                            </div>
+                        </div>
                         <table class="table is-hoverable is-fullwidth">
                             <thead>
                                 <tr>
                                     <th>日期</th>
                                     <th>名稱</th>
+                                    <th>講師</th>
                                     <th>地點</th>
                                     <th>標籤</th>
                                 </tr>
@@ -112,7 +119,10 @@
                             <tbody>
                                 <tr>
                                     <td>9/18</td>
-                                    <td>期初大會</td>
+                                    <td>
+                                        <a href="../all/01/">期初大會</a>
+                                    </td>
+                                    <td>羅崧瑋</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#期初大會</span>
@@ -120,7 +130,10 @@
                                 </tr>
                                 <tr>
                                     <td>9/25</td>
-                                    <td>開源</td>
+                                    <td>
+                                        <a href="../all/02/">開源是啥?可以吃嗎?為什麼要開源?</a>
+                                    </td>
+                                    <td>羅崧瑋</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#開源</span>
@@ -128,7 +141,10 @@
                                 </tr>
                                 <tr>
                                     <td>10/2</td>
-                                    <td>轉生開源世界無意間竟獲得了最強武器是否搞錯了社麼</td>
+                                    <td>
+                                        <a href="../all/03/">轉生開源世界無意間竟獲得了最強武器是否搞錯了社麼</a>
+                                    </td>
+                                    <td>羅崧瑋</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#開源</span>
@@ -137,7 +153,10 @@
                                 </tr>
                                 <tr>
                                     <td>10/9</td>
-                                    <td>計算機概論(OS+計組+shell)</td>
+                                    <td>
+                                        <a href="../all/04/">計算機概論(OS+計組+shell)</a>
+                                    </td>
+                                    <td>陳威翰</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#計算機概論</span>
@@ -146,7 +165,10 @@
                                 </tr>
                                 <tr>
                                     <td>10/16</td>
-                                    <td>從printf()開始的扣頂生活</td>
+                                    <td>
+                                        <a href="../all/05/">從printf()開始的扣頂生活</a>
+                                    </td>
+                                    <td>羅崧瑋</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#C</span>
@@ -155,7 +177,10 @@
                                 </tr>
                                 <tr>
                                     <td>11/6</td>
-                                    <td>關於我用迴圈旋轉自己的那檔事</td>
+                                    <td>
+                                        <a href="../all/06/">關於我用迴圈旋轉自己的那檔事</a>
+                                    </td>
+                                    <td>羅崧瑋</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#C</span>
@@ -164,7 +189,10 @@
                                 </tr>
                                 <tr>
                                     <td>11/13</td>
-                                    <td>雷雕</td>
+                                    <td>
+                                        <a href="../all/07/">雷雕</a>
+                                    </td>
+                                    <td>吳享恩</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#設計</span>
@@ -173,7 +201,10 @@
                                 </tr>
                                 <tr>
                                     <td>11/20</td>
-                                    <td>雷雕</td>
+                                    <td>
+                                        <a href="../all/08/">雷雕</a>
+                                    </td>
+                                    <td>吳享恩</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#設計</span>
@@ -182,7 +213,10 @@
                                 </tr>
                                 <tr>
                                     <td>11/27</td>
-                                    <td>Arduino無用盒</td>
+                                    <td>
+                                        <a href="../all/09/">Arduino無用盒</a>
+                                    </td>
+                                    <td>劉玠祐</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#Arduino</span>
@@ -191,7 +225,10 @@
                                 </tr>
                                 <tr>
                                     <td>12/4</td>
-                                    <td>期末大會 聖誕交換禮物</td>
+                                    <td>
+                                        <a href="../all/10/">期末大會 聖誕交換禮物</a>
+                                    </td>
+                                    <td>張芯瑜</td>
                                     <td>未定</td>
                                     <td>
                                         <span class="tag is-info is-light">#交換禮物</span>
@@ -216,5 +253,28 @@
             </div>
         </footer>
         <script src="https://ttussc.github.io/11th/index.js"></script>
+        <script type="text/javascript">
+            let progress = () => {
+                const bar = document.getElementById('2023-first');
+                const secstart = new Date(2023, 9, 18).getTime();
+                const secend = new Date(2023, 12, 4).getTime();
+                const now = new Date().getTime();
+                let delta = (now - secstart) / (secend - secstart) * 100;
+                delta = Math.round(delta);
+
+                bar.innerHTML = delta.toString();
+                let id = setInterval(frame, 1);
+                let cur = 0;
+                function frame() {
+                    if (cur >= delta) {
+                        clearInterval(id);
+                    } else {
+                        cur+=0.1;
+                        bar.setAttribute('value', cur.toString());
+                    }
+                }
+            }
+            progress();
+        </script>
     </body>
 </html>
