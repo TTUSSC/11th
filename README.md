@@ -3,5 +3,4 @@ Bulma + HTML
 
 ## TODO
 - [ ] SEO
-- [ ] 把nav、footer做成可重複使用
-- [ ] 換成Vue框架
+- [ ] 使用Vue框架重做
