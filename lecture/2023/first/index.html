@@ -122,12 +122,6 @@
                 <div id="content_mid" class="column is-four-fifths">
                     <div class="container">
                         <h1 class="title">社團課表</h1>
-                        <div class="columns">
-                            <div class="column"></div>
-                            <div class="column is-8">
-                                <progress id="2023-first" class="progress is-info" value="0" max="100">0%</progress>
-                            </div>
-                        </div>
                         <table class="table is-hoverable is-fullwidth">
                             <thead>
                                 <tr>
@@ -142,12 +136,12 @@
                                 <tr>
                                     <td>9/18</td>
                                     <td>
-                                        <a href="../all/01/">期初大會</a>
+                                        <a href="../all/01/">期初迎新</a>
                                     </td>
                                     <td>羅崧瑋</td>
-                                    <td>未定</td>
+                                    <td>A3-102</td>
                                     <td>
-                                        <span class="tag is-info is-light">#期初大會</span>
+                                        <span class="tag is-info is-light">#迎新</span>
                                     </td>
                                 </tr>
                                 <tr>
@@ -286,28 +280,5 @@
             </div>
         </footer>
         <script src="https://ttussc.github.io/11th/src/js/main.js"></script>
-        <script type="text/javascript">
-            let progress = () => {
-                const bar = document.getElementById('2023-first');
-                const secstart = new Date(2023, 9, 18).getTime();
-                const secend = new Date(2023, 12, 4).getTime();
-                const now = new Date().getTime();
-                let delta = (now - secstart) / (secend - secstart) * 100;
-                delta = Math.round(delta);
-
-                bar.innerHTML = delta.toString();
-                let id = setInterval(frame, 1);
-                let cur = 0;
-                function frame() {
-                    if (cur >= delta) {
-                        clearInterval(id);
-                    } else {
-                        cur+=0.1;
-                        bar.setAttribute('value', cur.toString());
-                    }
-                }
-            }
-            progress();
-        </script>
     </body>
 </html>
