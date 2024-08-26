@@ -7,6 +7,10 @@ const toggleMenu = () => {
     is_active.value = !is_active.value;
 }
 
+const closeMenu = () => {
+    is_active.value = false;
+}
+
 </script>
 <template>
     <nav class="navbar is-transparent" v-bind:class="{ 'is-active': is_active }">
@@ -32,13 +36,13 @@ const toggleMenu = () => {
 
         <div id="navbarContent" class="navbar-menu" v-bind:class="{ 'is-active': is_active }">
             <div class="navbar-start">
-                <RouterLink class="navbar-item" to="/"> 首頁 </RouterLink>
-                <RouterLink class="navbar-item" to="/about"> 關於 </RouterLink>
-                <RouterLink class="navbar-item" to="/member"> 團隊成員 </RouterLink>
-                <RouterLink class="navbar-item" to="/lecture"> 社團課表 </RouterLink>
-                <RouterLink class="navbar-item" to="/project"> 社團專案 </RouterLink>
-                <RouterLink class="navbar-item" to="/opensource"> 關於開源 </RouterLink>
-                <RouterLink class="navbar-item" to="/opendata"> 公開資料 </RouterLink>
+                <RouterLink class="navbar-item" to="/" @click="closeMenu"> 首頁 </RouterLink>
+                <RouterLink class="navbar-item" to="/about" @click="closeMenu"> 關於 </RouterLink>
+                <RouterLink class="navbar-item" to="/member" @click="closeMenu"> 團隊成員 </RouterLink>
+                <RouterLink class="navbar-item" to="/lecture" @click="closeMenu"> 社團課表 </RouterLink>
+                <RouterLink class="navbar-item" to="/project" @click="closeMenu"> 社團專案 </RouterLink>
+                <RouterLink class="navbar-item" to="/opensource" @click="closeMenu"> 關於開源 </RouterLink>
+                <RouterLink class="navbar-item" to="/opendata" @click="closeMenu"> 公開資料 </RouterLink>
             </div>
 
             <div class="navbar-end">
