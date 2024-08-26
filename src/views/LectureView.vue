@@ -1,7 +1,6 @@
 <script setup>
-import { RouterView, useRoute, useRouter } from 'vue-router';
+import { RouterView, useRouter } from 'vue-router';
 
-const route = useRoute();
 const router = useRouter();
 
 router.push("/lecture/2023/2");

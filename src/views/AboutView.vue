@@ -4,10 +4,10 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
 
 <template>
   <div class="columns is-multiline is-gapless">
-    <div id="content_left" class="column mx-2">
+    <div id="content_left" class="column mx-2 my-2">
       <LinksAsideCom />
     </div>
-    <div id="content_mid" class="column is-three-fifths mx-2">
+    <div id="content_mid" class="column is-three-fifths mx-2 my-2">
       <div class="container box">
         <h1 class="title">關於我們</h1>
         <ul>
@@ -26,6 +26,6 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
         </ul>
       </div>
     </div>
-    <div id="content_left" class="column mx-2"></div>
+    <div id="content_left" class="column mx-2 my-2"></div>
   </div>
 </template>

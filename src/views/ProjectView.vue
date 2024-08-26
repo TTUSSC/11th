@@ -1,7 +1,7 @@
 <template>
     <div class="columns is-multiline">
         <!-- 左邊 -->
-        <div id="content_left" class="column">
+        <div id="content_left" class="column my-2">
             <aside class="menu box">
                 <p class="menu-label">
                     專案 / Project

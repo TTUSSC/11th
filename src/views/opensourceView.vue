@@ -1,7 +1,8 @@
+<!-- eslint-disable vue/no-parsing-error -->
 <template>
     <div class="columns is-multiline is-gapless">
         <!-- 左邊 -->
-        <div id="content_left" class="column mx-2">
+        <div id="content_left" class="column mx-2 my-2">
             <aside class="menu fixed box">
                 <p class="menu-label">
                     目錄 / Index
@@ -15,7 +16,7 @@
             </aside>
         </div>
         <!-- 中間 -->
-        <div id="content_mid" class="column is-three-fifths mx-2">
+        <div id="content_mid" class="column is-three-fifths mx-2 my-2">
             <div class="container content box">
                 <h3 class="title is-3">關於開放原始碼</h3>
                 <h6 class="subtitle is-6">About The Open Source</h6>
