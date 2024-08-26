@@ -11,6 +11,7 @@ const lectures = [
 </script>
 
 <template>
+    <h1 class="title">2022 上學期 社團課表</h1>
     <table class="table is-hoverable is-fullwidth">
         <thead>
             <tr>

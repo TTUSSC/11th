@@ -33,7 +33,6 @@ router.push("/lecture/2023/2");
         <!-- 中間 -->
         <div id="content_mid" class="column is-four-fifths mx-2 my-2">
             <div class="container box">
-                <h1 class="title">社團課表</h1>
                 <RouterView />
             </div>
         </div>
