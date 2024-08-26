@@ -19,7 +19,7 @@
                 <!-- card 科學探索家 -->
                 <div id="2023_science_camp" class="card">
                     <div class="card-image is-fullwidth">
-                        <img src="https://ttussc.github.io/11th/img/rocket.jpg" alt="Placeholder image">
+                        <img src="/11th/img/rocket.jpg" alt="Placeholder image">
                     </div>
                     <div class="card-content">
                         <h4 class="title is-4">2023 科學探索家</h4>
@@ -32,7 +32,7 @@
                 <!-- card 電資創課營 -->
                 <div id="2024_useless_box" class="card">
                     <div class="card-image is-fullwidth">
-                        <img src="https://ttussc.github.io/11th/img/DSC06320.jpg" alt="Placeholder image">
+                        <img src="/11th/img/DSC06320.jpg" alt="Placeholder image">
                     </div>
                     <div class="card-content">
                         <h4 class="title is-4">2024 電資創課營</h4>
