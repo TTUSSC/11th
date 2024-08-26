@@ -31,9 +31,9 @@ router.push("/member/2024");
                 </ul>
             </aside>
         </div>
-        <div id="content_mid" class="column fixed-grid is-three-fifths mx-2">
+        <div id="content_mid" class="column fixed-grid has-1-cols-mobile is-three-fifths mx-2">
             <h1 class="title">社團成員</h1>
-            <div class="grid has-1-cols-mobile has-2-cols">
+            <div class="grid">
                 <RouterView />
             </div>
         </div>
