@@ -1,5 +1,15 @@
+<script setup>
+import { ref } from 'vue';
+
+const is_active = ref(false);
+
+const toggleMenu = () => {
+    is_active.value = !is_active.value;
+}
+
+</script>
 <template>
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-transparent" v-bind:class="{ 'is-active': is_active }">
         <div class="navbar-brand">
             <RouterLink class="navbar-item" to="/">
                 <span class="icon-text">
@@ -12,7 +22,7 @@
                 </span>
 
             </RouterLink>
-            <div class="navbar-burger js-burger" data-target="navbarContent">
+            <div class="navbar-burger js-burger" @click="toggleMenu" v-bind:class="{ 'is-active': is_active }">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -20,7 +30,7 @@
             </div>
         </div>
 
-        <div id="navbarContent" class="navbar-menu">
+        <div id="navbarContent" class="navbar-menu" v-bind:class="{ 'is-active': is_active }">
             <div class="navbar-start">
                 <RouterLink class="navbar-item" to="/"> 首頁 </RouterLink>
                 <RouterLink class="navbar-item" to="/about"> 關於 </RouterLink>
@@ -61,3 +71,20 @@
         </div>
     </nav>
 </template>
+<style scoped>
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        display: block;
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out, opacity 0.2s ease-out;
+    }
+
+    .navbar-menu.is-active {
+        opacity: 1;
+        max-height: 100vh;
+        transition: max-height 0.5s ease-in, opacity 0.3s ease-in;
+    }
+}
+</style>

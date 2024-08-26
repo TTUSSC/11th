@@ -1,6 +1,6 @@
 <template>
     <section class="hero is-info"
-        style="background: url('https://ttussc.github.io/11th/img/DSC_9762.jpg') no-repeat center center; background-size: cover;">
+        style="background: url('/11th/img/DSC_9762.jpg') no-repeat center center; background-size: cover;">
         <div class="hero-body">
             <p class="title">
                 大同大學科學開源服務社
