@@ -18,7 +18,7 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
           </p>
         </div>
         <figure class="column image">
-          <img src="/11th/img/ssc_logo.png" height="400">
+          <img src="/img/ssc_logo.png" height="400">
         </figure>
       </div>
       <!-- 第二區段 -->
@@ -30,7 +30,7 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
             <div class="card">
               <div class="card-image">
                 <figure class="image">
-                  <img src="/11th/img/LINE_ALBUM_2023 COSCUP_230802_1.jpg" alt="Placeholder image">
+                  <img src="/img/LINE_ALBUM_2023 COSCUP_230802_1.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -49,7 +49,7 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
             <div class="card">
               <div class="card-image">
                 <figure class="image">
-                  <img src="/11th/img/FA265082-CE07-4F1B-88AE-630B6133ED7B.jpg" alt="Placeholder image">
+                  <img src="/img/FA265082-CE07-4F1B-88AE-630B6133ED7B.jpg" alt="Placeholder image">
                 </figure>
               </div>
               <div class="card-content">
@@ -68,7 +68,7 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
             <div class="card">
               <div class="card-image">
                 <figure class="image">
-                  <img src="/11th/img/DSC_9627.jpg" alt="服務">
+                  <img src="/img/DSC_9627.jpg" alt="服務">
                 </figure>
               </div>
               <div class="card-content">
