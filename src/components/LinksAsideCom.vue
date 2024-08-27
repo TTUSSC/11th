@@ -25,7 +25,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://discord.gg/qYHJApfQEa" target=“_blank”>
+                <a href="https://discord.com/invite/29PsKfe45h" target=“_blank”>
                     <span class="icon-text">
                         <span class="icon">
                             <i class="fa-brands fa-discord"></i>

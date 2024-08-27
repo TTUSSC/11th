@@ -1,11 +1,69 @@
 <script setup>
 const lectures = [
     {
-        date: "9/18",
-        name: "期初迎新",
+        date: "2/29",
+        name: "新學期啟航！回顧及展望",
         speaker: "羅崧瑋",
-        place: "A3-102",
-        tags: ["迎新"]
+        place: "A3-307",
+        tags: ["期初大會"]
+    },
+    {
+        date: "3/9",
+        name: "SITCON 學生計算機年會",
+        speaker: "無",
+        place: "中研院",
+        tags: ["SITCON"]
+    },
+    {
+        date: "3/14",
+        name: "古老卻強大的編譯器-Vim",
+        speaker: "Timothy",
+        place: "A3-200",
+        tags: [
+            "vim", "shell"
+        ]
+    },
+    {
+        date: "3/16",
+        name: "天使心志工活動",
+        speaker: "無",
+        place: "台北市立木柵動物園",
+        tags: ["服務"]
+    },
+    {
+        date: "3/21",
+        name: "想要擁有自己的網站嗎？boostrap帶你上手",
+        speaker: "張哲嘉",
+        place: "A3-200",
+        tags: ["網頁前端", "Bootstrap"]
+    },
+    {
+        date: "",
+        name: "",
+        speaker: "",
+        place: "",
+        tags: [""]
+    },
+    {
+        date: "",
+        name: "",
+        speaker: "",
+        place: "",
+        tags: [""]
+    },
+    {
+        date: "",
+        name: "",
+        speaker: "",
+        place: "",
+        tags: [""]
+    },
+    {
+        date: "",
+        name: "",
+        speaker: "",
+        place: "",
+        tags: [""]
     },
 ]
 </script>
