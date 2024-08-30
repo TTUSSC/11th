@@ -3,7 +3,7 @@ const lectures = [
     {
         date: "2/29",
         name: "新學期啟航！回顧及展望",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-307",
         tags: ["期初大會"]
     },
@@ -54,7 +54,7 @@ const lectures = [
     {
         date: "4/13",
         name: "開源工具大補帖",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3 8F 樂學空間",
         tags: ["Linux","Markdown"]
     },
@@ -68,21 +68,21 @@ const lectures = [
     {
         date: "5/2",
         name: "從C語言快速上手Python的基礎實戰",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-200",
         tags: ["Python"]
     },
     {
         date: "5/9",
         name: "從Python爬蟲認識網路世界",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-200",
         tags: ["Python","網路爬蟲"]
     },
     {
         date: "5/16",
         name: "Jerry 的 HEXO 分享",
-        speaker: "方健宇",
+        speaker: "小方",
         place: "A3-200",
         tags: ["GitHub","HEXO"]
     },

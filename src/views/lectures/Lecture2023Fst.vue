@@ -3,42 +3,42 @@ const lectures = [
     {
         date: "9/18",
         name: "期初迎新",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-102",
         tags: ["迎新"]
     },
     {
         date: "9/25",
         name: "開源是什麼?蛤?雞排?",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-200",
         tags: ["開源文化"]
     },
     {
         date: "10/2",
         name: "轉生開源世界無意間竟獲得了最強武器是否搞錯了社麼",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-200",
         tags: ["開源","HackMD"]
     },
     {
         date: "10/9",
         name: "怕麻煩的我，把Shell學好就對了!",
-        speaker: "陳威翰",
+        speaker: "Stanley",
         place: "A3-200",
         tags: ["OS","Linux"]
     },
     {
         date: "10/16",
         name: "從printf()開始的扣頂生活",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-200",
         tags: ["C","程式設計"]
     },
     {
         date: "11/6",
         name: "關於我用迴圈旋轉自己的那檔事",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
         place: "A3-200",
         tags: ["C","程式設計"]
     },
