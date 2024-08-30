@@ -10,7 +10,7 @@ const members_info_11 = [
         name: "羅崧瑋",
         title: "社長",
         ig: "sw_1a4",
-        desc: "資工系，努力學習中",
+        desc: "資工系，熱衷於研究網頁前後端、電腦底層技術，目前正努力學習資訊安全。",
         tags: [
             "弓道",
             "網頁前後端",
@@ -31,7 +31,7 @@ const members_info_11 = [
         name: "陳威翰",
         title: "副社長",
         ig: "stanley_1106_",
-        desc: "資工系",
+        desc: "資工系，喜歡參加各式各樣的活動，努力學習資安中",
         tags: [
             "貝斯(新)手 #社花",
         ]
