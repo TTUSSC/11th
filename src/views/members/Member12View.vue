@@ -6,7 +6,7 @@ const trueURL = (url) => {
 
 const members_info_12 = [
     {
-        image: trueURL("/img/member/willy.jpg"),
+        image: trueURL("img/member/willy.jpg"),
         name: "游凱威",
         title: "社長",
         ig: "willyyu.20041019",
@@ -14,7 +14,7 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: trueURL("/img/member/"),
+        image: "",
         name: "陳彥廷",
         title: "副社長",
         ig: "maverick_01_freedom",
@@ -22,7 +22,7 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: trueURL("/img/member/"),
+        image: "",
         name: "盧佳緯",
         title: "副社長",
         ig: "jerrylu8631",
@@ -30,7 +30,7 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: trueURL("/img/member/stanley.jpg"),
+        image: trueURL("img/member/stanley.jpg"),
         name: "陳威翰",
         title: "財務組長",
         ig: "stanley_1106_",
@@ -41,7 +41,7 @@ const members_info_12 = [
         ]
     },
     {
-        image: trueURL("/img/member/tty.jpg"),
+        image: trueURL("img/member/tty.jpg"),
         name: "曹延宥",
         title: "器材組長",
         ig: "tty_9_28",
@@ -49,7 +49,7 @@ const members_info_12 = [
         tags: ["社草"]
     },
     {
-        image: trueURL("/img/member/fang.jpg"),
+        image: trueURL("img/member/fang.jpg"),
         name: "方健宇",
         title: "教學組長",
         ig: "jerry_0804_",
@@ -57,7 +57,7 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: trueURL("/img/member/yuto.jpg"),
+        image: trueURL("img/member/yuto.jpg"),
         name: "羅崧瑋",
         title: "活動組長",
         ig: "sw_1a4",
@@ -68,7 +68,7 @@ const members_info_12 = [
         ]
     },
     {
-        image: trueURL("/img/member/hyn.jpg"),
+        image: trueURL("img/member/hyn.jpg"),
         name: "黃郁寧",
         title: "編輯組長",
         ig: "__hhyn.7",
@@ -76,7 +76,7 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: trueURL("/img/member/"),
+        image: "",
         name: "蔡詠竣",
         title: "資訊組長",
         ig: "speedcubing.top",
@@ -84,7 +84,7 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: trueURL("/img/member/star.jpg"),
+        image: trueURL("img/member/star.jpg"),
         name: "張乃文",
         title: "紀錄組長",
         ig: "best_twisted_fate",
@@ -101,7 +101,8 @@ const members_info_12 = [
                 <div class="media">
                     <div class="media-left">
                         <figure class="image is-64x64" style="border-radius: 4px;">
-                            <img :src="member.image" alt="">
+                            <img v-if="member.image != ''" :src="member.image" alt="">
+                            <img v-else src="/11th/img/ssc_logo.png">
                         </figure>
                     </div>
                     <div class="media-content">
@@ -113,8 +114,9 @@ const members_info_12 = [
                     </div>
                 </div>
                 <div class="content">
-                    <p>{{ member.desc }}</p>
-                    <a class="mr-2" v-for="tag in member.tags" :key="tag.id">#{{ tag }}</a>
+                    <p v-if="member.desc != ''">{{ member.desc }}</p>
+                    <a class="mr-2" v-for="tag in member.tags" :key="tag.id">#{{ tag
+                        }}</a>
                 </div>
             </div>
         </div>
