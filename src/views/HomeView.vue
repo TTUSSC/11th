@@ -9,7 +9,7 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
     </div>
     <div id="content_mid" class="column is-three-fifths mx-2 my-2">
       <!-- 第一區段 -->
-      <div class="container columns is-vcentered box">
+      <div class="section container columns is-vcentered box">
         <div class="column  content is-three-quarters">
           <h1 class="title">關於科創社</h1>
           <p>
@@ -84,12 +84,15 @@ import LinksAsideCom from '@/components/LinksAsideCom.vue';
         </div>
       </div>
       <!-- section 3 -->
-      <div class="container content box">
+      <div class="section container content box">
         <h1 class="title">如何加入社團?</h1>
         <p>
           學期末開始前都會有期初大會，向各位介紹社團，屆時也會請社員們填寫表單。<br>
           <strong>我們歡迎無論是對開源、服務有興趣的學生加入</strong>
         </p>
+        <a class="button is-primary" href="https://forms.gle/kJ8MDiceB64g8pQ58" target="_blank">
+          填寫入社表單
+        </a>
       </div>
     </div>
     <div id="content_left" class="column mx-2 my-2"></div>
