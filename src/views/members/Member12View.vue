@@ -11,7 +11,7 @@ const members_info_12 = [
         title: "社長",
         ig: "willyyu.20041019",
         desc: "電機系學生，對於電資相關領域感到興趣，平時喜歡看科技相關的酷東東以及探索各種沒接觸過的東西😆",
-        tags: ["tag"]
+        tags: []
     },
     {
         image: trueURL("/img/member/"),
@@ -19,7 +19,7 @@ const members_info_12 = [
         title: "副社長",
         ig: "maverick_01_freedom",
         desc: "",
-        tags: ["tag"]
+        tags: []
     },
     {
         image: trueURL("/img/member/"),
@@ -27,7 +27,7 @@ const members_info_12 = [
         title: "副社長",
         ig: "jerrylu8631",
         desc: "",
-        tags: ["tag"]
+        tags: []
     },
     {
         image: trueURL("/img/member/stanley.jpg"),
@@ -54,7 +54,7 @@ const members_info_12 = [
         title: "教學組長",
         ig: "jerry_0804_",
         desc: "資工系的學生，喜歡一個人躲在角落看書。最近在努力學習各種知識，藉此增加資工領域的能力。以前從來沒有想過會走資工，覺得和同學們格格不入，希望大學四年能夠找到好夥伴。",
-        tags: ["tag"]
+        tags: []
     },
     {
         image: trueURL("/img/member/yuto.jpg"),
@@ -73,7 +73,7 @@ const members_info_12 = [
         title: "編輯組長",
         ig: "__hhyn.7",
         desc: "資工系學生，也可以叫我芋泥，但我不吃芋泥跟芋頭，特別不能加在火鍋裡面。",
-        tags: ["tag"]
+        tags: []
     },
     {
         image: trueURL("/img/member/"),
@@ -81,7 +81,7 @@ const members_info_12 = [
         title: "資訊組長",
         ig: "speedcubing.top",
         desc: "",
-        tags: ["tag"]
+        tags: []
     },
     {
         image: trueURL("/img/member/star.jpg"),
@@ -89,7 +89,7 @@ const members_info_12 = [
         title: "紀錄組長",
         ig: "best_twisted_fate",
         desc: "資工系學生，喜歡睡覺，吃水餃不沾醬油，吃咖哩要拌。",
-        tags: ["tag"]
+        tags: []
     }
 ];
 

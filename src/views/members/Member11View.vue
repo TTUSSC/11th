@@ -53,9 +53,7 @@ const members_info_11 = [
         title: "財務組長",
         ig: "jinjohn_lin",
         desc: "電機系",
-        tags: [
-            "tag",
-        ]
+        tags: []
     },
     {
         image: trueURL("/img/member/sam.jpg"),
@@ -63,9 +61,7 @@ const members_info_11 = [
         title: "器材組長",
         ig: "sam_930704",
         desc: "電機系",
-        tags: [
-            "tag",
-        ]
+        tags: []
     },
     {
         image: trueURL("/img/member/ju.jpg"),
@@ -73,9 +69,7 @@ const members_info_11 = [
         title: "教學組長",
         ig: "j.u_28_",
         desc: "電機系",
-        tags: [
-            "tag",
-        ]
+        tags: []
     },
     {
         image: trueURL("/img/member/brian.jpg"),
@@ -83,9 +77,7 @@ const members_info_11 = [
         title: "教學組長",
         ig: "brian_jhan",
         desc: "資經系",
-        tags: [
-            "tag",
-        ]
+        tags: []
     },
     {
         image: trueURL("/img/member/harry.jpg"),
@@ -93,9 +85,7 @@ const members_info_11 = [
         title: "美宣組長",
         ig: "harry.0108_",
         desc: "工設系",
-        tags: [
-            "tag",
-        ]
+        tags: []
     },
     {
         image: trueURL("/img/member/xiangen.jpg"),
@@ -103,9 +93,7 @@ const members_info_11 = [
         title: "紀錄組長",
         ig: "xiangen7653",
         desc: "工設系",
-        tags: [
-            "tag",
-        ]
+        tags: []
     }
 ];
 
