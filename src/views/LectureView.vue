@@ -37,7 +37,7 @@ router.push("/lecture/2023/2");
             </div>
         </div>
         <!-- 右邊 -->
-        <div id="content_right" class="column">
+        <div id="content_right" class="column mx-2 my-2">
 
         </div>
     </div>

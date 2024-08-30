@@ -51,11 +51,11 @@
             </aside>
         </div>
         <!-- 中間 -->
-        <div id="content_mid" class="column is-three-fifths mx-2">
+        <div id="content_mid" class="column is-three-fifths mx-2 my-2">
 
         </div>
         <!-- 右邊 -->
-        <div id="content_right" class="column mx-2">
+        <div id="content_right" class="column mx-2 my-2">
 
         </div>
     </div>
