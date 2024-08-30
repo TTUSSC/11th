@@ -9,10 +9,13 @@ import opensourceView from '@/views/opensourceView.vue';
 import OpenDataView from '@/views/OpenDataView.vue';
 import ProjectView from '@/views/ProjectView.vue';
 import LectureView from '@/views/LectureView.vue';
+import Lecture2024Fst from '@/views/lectures/Lecture2024Fst.vue';
+import Lecture2024Snd from '@/views/lectures/Lecture2024Snd.vue';
 import Lecture2023Fst from '@/views/lectures/Lecture2023Fst.vue';
 import Lecture2023Snd from '@/views/lectures/Lecture2023Snd.vue';
 import Lecture2022Fst from '@/views/lectures/Lecture2022Fst.vue';
 import Lecture2022Snd from '@/views/lectures/Lecture2022Snd.vue';
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +77,16 @@ const router = createRouter({
       name: 'lecture',
       component: LectureView,
       children: [
+        {
+          path: '2024/2',
+          name: 'lecture2024second',
+          component: Lecture2024Snd
+        },
+        {
+          path: '2024/1',
+          name: 'lecture2024first',
+          component: Lecture2024Fst
+        },
         {
           path: '2023/2',
           name: 'lecture2023second',

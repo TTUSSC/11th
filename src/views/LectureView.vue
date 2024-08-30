@@ -15,6 +15,12 @@ router.push("/lecture/2023/2");
                     歷年課表
                 </p>
                 <ul class="menu-list">
+                    <!-- <li>
+                        <RouterLink active-class="is-active" to="/lecture/2024/2">2024 下學期</RouterLink>
+                    </li> -->
+                    <li>
+                        <RouterLink active-class="is-active" to="/lecture/2024/1">2024 上學期</RouterLink>
+                    </li>
                     <li>
                         <RouterLink active-class="is-active" to="/lecture/2023/2">2023 下學期</RouterLink>
                     </li>
