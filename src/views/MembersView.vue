@@ -10,7 +10,7 @@ router.push("/member/2024");
 
 <template>
     <div class="columns is-multiline is-gapless">
-        <div id="content_left" class="column mx-2">
+        <div id="content_left" class="column mx-2 my-2 mb-6">
             <aside class="menu box">
                 <p class="menu-label">
                     歷年幹部

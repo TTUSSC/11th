@@ -1,7 +1,7 @@
 <template>
     <div class="columns is-multiline is-gapless">
         <!-- 左邊 -->
-        <div id="content_left" class="column mx-2">
+        <div id="content_left" class="column mx-2 my-2 mb-6">
             <aside class="menu box">
                 <p class="menu-label">
                     文檔／Document
