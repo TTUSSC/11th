@@ -226,63 +226,75 @@ const isButtonsShow = computed(() => { return selectedLecture.value.slido || sel
             </tbody>
         </table>
     </div>
-
-    <div class="modal" :class="{ 'is-active': isModalActive }">
-        <div class="modal-background" @click="closeModal"></div>
-        <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title"></p>
-                <button class="delete" aria-label="close" @click="closeModal"></button>
-            </header>
-            <section class="modal-card-body">
-                <div class="content">
-                    <span v-for="tag in selectedLecture?.tags" :key="tag" class="tag is-info is-light mr-1">
-                        #{{ tag }}
-                    </span>
-                    <h1 class="title">{{ selectedLecture?.name }}</h1>
-                    <p>
-                        <span><strong>日期：</strong> {{ selectedLecture?.date }}</span><br>
-                        <span><strong>講師：</strong> {{ selectedLecture?.speaker }}</span><br>
-                        <span><strong>地點：</strong> {{ selectedLecture?.place }}</span><br>
-                    </p>
-                    <div v-if="isButtonsShow" class="buttons">
-                        <a v-if="selectedLecture.slide" :href="selectedLecture.slide" class="button is-warning">
-                            <span class="icon">
-                                <i class="fa-solid fa-file-powerpoint"></i>
-                            </span>
-                            <span>簡報</span>
-                        </a>
-                        <a v-if="selectedLecture.handout" :href="selectedLecture.handout" class="button is-info">
-                            <span class="icon">
-                                <i class="fa-solid fa-book"></i>
-                            </span>
-                            <span>講議</span>
-                        </a>
-                        <a v-if="selectedLecture.slido" :href="selectedLecture.slido" class="button is-success">
-                            <span class="icon">
-                                <i class="fa-solid fa-circle-question"></i>
-                            </span>
-                            <span>Slido</span>
-                        </a>
-                        <a v-if="selectedLecture.note" :href="selectedLecture.note" class="button is-dark">
-                            <span class="icon">
-                                <i class="fa-solid fa-file-lines"></i>
-                            </span>
-                            <span>共筆</span>
-                        </a>
-                    </div>
-                    <div class="my-2" v-if="selectedLecture.description != ''">
-                        <h2 class="title is-4">活動內容</h2>
+    <transition name="modal">
+        <div v-if="isModalActive" class="modal" :class="{ 'is-active': isModalActive }">
+            <div class="modal-background" @click="closeModal"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title"></p>
+                    <button class="delete" aria-label="close" @click="closeModal"></button>
+                </header>
+                <section class="modal-card-body">
+                    <div class="content">
+                        <span v-for="tag in selectedLecture?.tags" :key="tag" class="tag is-info is-light mr-1">
+                            #{{ tag }}
+                        </span>
+                        <h1 class="title">{{ selectedLecture?.name }}</h1>
                         <p>
-                            {{ selectedLecture.description }}
+                            <span><strong>日期：</strong> {{ selectedLecture?.date }}</span><br>
+                            <span><strong>講師：</strong> {{ selectedLecture?.speaker }}</span><br>
+                            <span><strong>地點：</strong> {{ selectedLecture?.place }}</span><br>
                         </p>
+                        <div v-if="isButtonsShow" class="buttons">
+                            <a v-if="selectedLecture.slide" :href="selectedLecture.slide" class="button is-warning">
+                                <span class="icon">
+                                    <i class="fa-solid fa-file-powerpoint"></i>
+                                </span>
+                                <span>簡報</span>
+                            </a>
+                            <a v-if="selectedLecture.handout" :href="selectedLecture.handout" class="button is-info">
+                                <span class="icon">
+                                    <i class="fa-solid fa-book"></i>
+                                </span>
+                                <span>講議</span>
+                            </a>
+                            <a v-if="selectedLecture.slido" :href="selectedLecture.slido" class="button is-success">
+                                <span class="icon">
+                                    <i class="fa-solid fa-circle-question"></i>
+                                </span>
+                                <span>Slido</span>
+                            </a>
+                            <a v-if="selectedLecture.note" :href="selectedLecture.note" class="button is-dark">
+                                <span class="icon">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                </span>
+                                <span>共筆</span>
+                            </a>
+                        </div>
+                        <div class="my-2" v-if="selectedLecture.description != ''">
+                            <h2 class="title is-4">活動內容</h2>
+                            <p>
+                                {{ selectedLecture.description }}
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <footer class="modal-card-foot is-flex">
-                <button class="button ml-auto is-success" :disabled="selectedLecture.kktix != ''">KKTIX
-                    報名</button>
-            </footer>
+                </section>
+                <footer class="modal-card-foot is-flex">
+                    <button class="button ml-auto is-success" :disabled="selectedLecture.kktix != ''">KKTIX
+                        報名</button>
+                </footer>
+            </div>
         </div>
-    </div>
+    </transition>
 </template>
+<style lang="css" scoped>
+.modal-enter-from,
+.modal-leave-to {
+    opacity: 0;
+}
+
+.modal-enter-active,
+.modal-leave-active {
+    transition: opacity 0.3s ease;
+}
+</style>
