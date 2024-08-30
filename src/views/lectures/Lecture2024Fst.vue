@@ -199,30 +199,33 @@ const isButtonsShow = computed(() => { return selectedLecture.value.slido || sel
 
 <template>
     <h1 class="title">2024 上學期 社團課表</h1>
-    <table class="table is-hoverable is-fullwidth">
-        <thead>
-            <tr>
-                <th>日期</th>
-                <th>名稱</th>
-                <th>講師</th>
-                <th>地點</th>
-                <th>標籤</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="lecture in lectures" :key="lecture.id">
-                <td>{{ lecture.date }}</td>
-                <td>
-                    <a @click="openModal(lecture)">{{ lecture.name }}</a>
-                </td>
-                <td>{{ lecture.speaker }}</td>
-                <td>{{ lecture.place }}</td>
-                <td>
-                    <span v-for="tag in lecture.tags" :key="tag.id" class="tag is-info is-light mr-1">#{{ tag }}</span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="table-container">
+        <table class="table is-hoverable is-striped is-fullwidth">
+            <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>名稱</th>
+                    <th>講師</th>
+                    <th>地點</th>
+                    <th class="is-hidden-mobile">標籤</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="lecture in lectures" :key="lecture.id">
+                    <td>{{ lecture.date }}</td>
+                    <td>
+                        <a @click="openModal(lecture)">{{ lecture.name }}</a>
+                    </td>
+                    <td>{{ lecture.speaker }}</td>
+                    <td>{{ lecture.place }}</td>
+                    <td class="is-hidden-mobile">
+                        <span v-for="tag in lecture.tags" :key="tag.id" class="tag is-info is-light mr-1">#{{ tag
+                            }}</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <div class="modal" :class="{ 'is-active': isModalActive }">
         <div class="modal-background" @click="closeModal"></div>
