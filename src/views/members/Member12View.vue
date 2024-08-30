@@ -102,7 +102,7 @@ const members_info_12 = [
                     <div class="media-left">
                         <figure class="image is-64x64" style="border-radius: 4px;">
                             <img v-if="member.image != ''" :src="member.image" alt="">
-                            <img v-else :src="trueURL('img/ssc_logo.png')">
+                            <img v-else :src="trueURL('img/peek.png')">
                         </figure>
                     </div>
                     <div class="media-content">
