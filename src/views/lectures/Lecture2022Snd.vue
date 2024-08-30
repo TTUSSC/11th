@@ -24,7 +24,14 @@ const lectures = [
     {
         date: "3/20",
         name: "打扣必備的版本控管工具，讓你從入門到放棄-Git教學",
-        speaker: "羅崧瑋",
+        speaker: "Yuto",
+        place: "A5-807",
+        tags: []
+    },
+    {
+        date: "3/27",
+        name: "淺談分支概念與Github實戰-Git教學（二）",
+        speaker: "Yuto",
         place: "A5-807",
         tags: []
     },

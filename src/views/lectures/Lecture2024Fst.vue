@@ -66,21 +66,21 @@ const lectures = [
     {
         date: "11/7",
         name: "Arduino 基礎介紹",
-        speaker: "盧佳緯、陳彥廷",
+        speaker: "盧佳緯、Allen",
         place: "A3-200",
         tags: ["Arduino"]
     },
     {
         date: "11/14",
         name: "Arduino 無用盒",
-        speaker: "盧佳緯、陳彥廷",
+        speaker: "盧佳緯、Allen",
         place: "A3-200",
         tags: ["Arduino","創客"]
     },
     {
         date: "11/21",
         name: "Arduino 門禁卡",
-        speaker: "盧佳緯、陳彥廷",
+        speaker: "盧佳緯、Allen",
         place: "A3-200",
         tags: ["Arduino","創客"]
     },
