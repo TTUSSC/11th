@@ -280,7 +280,8 @@ const isButtonsShow = computed(() => { return selectedLecture.value.slido || sel
                 </div>
             </section>
             <footer class="modal-card-foot is-flex">
-                <button class="button ml-auto is-success">KKTIX 報名</button>
+                <button class="button ml-auto is-success" :disabled="selectedLecture.kktix != ''">KKTIX
+                    報名</button>
             </footer>
         </div>
     </div>
