@@ -3,7 +3,7 @@ import { RouterView, useRouter } from 'vue-router';
 
 const router = useRouter();
 
-router.push("/lecture/2023/2");
+router.push("/lecture/2024/1");
 
 </script>
 <template>
