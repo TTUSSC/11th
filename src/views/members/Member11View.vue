@@ -61,7 +61,7 @@ const members_info_11 = [
         image: trueURL("/img/member/sam.jpg"),
         name: "陳茂凱",
         title: "器材組長",
-        ig: "sam_930704<",
+        ig: "sam_930704",
         desc: "電機系",
         tags: [
             "tag",
