@@ -26,6 +26,86 @@ const members_info_11 = [
             "社草",
         ]
     },
+        {
+        image: trueURL("/img/member/stanley.jpg"),
+        name: "陳威翰",
+        title: "副社長",
+        ig: "stanley_1106_",
+        desc: "資工系",
+        tags: [
+            "貝斯(新)手 #社花",
+        ]
+    },
+    {
+        image: trueURL("/img/member/xin.jpg"),
+        name: "張芯瑜",
+        title: "文書組長",
+        ig: "xin._1865",
+        desc: "電機系",
+        tags: [
+            "不要害SHIU",
+        ]
+    },
+    {
+        image: trueURL("/img/member/john.jpg"),
+        name: "林靖疆",
+        title: "財務組長",
+        ig: "jinjohn_lin",
+        desc: "電機系",
+        tags: [
+            "tag",
+        ]
+    },
+    {
+        image: trueURL("/img/member/sam.jpg"),
+        name: "陳茂凱",
+        title: "器材組長",
+        ig: "sam_930704<",
+        desc: "電機系",
+        tags: [
+            "tag",
+        ]
+    },
+    {
+        image: trueURL("/img/member/ju.jpg"),
+        name: "劉玠佑",
+        title: "教學組長",
+        ig: "j.u_28_",
+        desc: "電機系",
+        tags: [
+            "tag",
+        ]
+    },
+    {
+        image: trueURL("/img/member/brian.jpg"),
+        name: "Brain",
+        title: "教學組長",
+        ig: "brian_jhan",
+        desc: "資經系",
+        tags: [
+            "tag",
+        ]
+    },
+    {
+        image: trueURL("/img/member/harry.jpg"),
+        name: "郭祐亨",
+        title: "美宣組長",
+        ig: "harry.0108_",
+        desc: "工設系",
+        tags: [
+            "tag",
+        ]
+    },
+    {
+        image: trueURL("/img/member/xiangen.jpg"),
+        name: "吳享恩",
+        title: "紀錄組長",
+        ig: "xiangen7653",
+        desc: "工設系",
+        tags: [
+            "tag",
+        ]
+    }
 ];
 
 </script>
