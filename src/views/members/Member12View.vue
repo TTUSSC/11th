@@ -22,11 +22,11 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: "",
+        image: trueURL("img/member/jerry.jpg"),
         name: "盧佳緯",
         title: "副社長",
         ig: "jerrylu8631",
-        desc: "",
+        desc: "電機系學生，吃貨一枚，有啥想問的也可以問我喔",
         tags: []
     },
     {
