@@ -14,8 +14,9 @@ import HeroCom from './components/HeroCom.vue';
 
     </header>
     <main class="my-4 mx-2 is-flex-grow-1">
-      <RouterView />
-
+      <transition name="route">
+        <RouterView />
+      </transition>
     </main>
     <footer>
       <FooterCom />
@@ -26,5 +27,15 @@ import HeroCom from './components/HeroCom.vue';
 <style scoped>
 .min-vh-100 {
   min-height: 100vh;
+}
+
+.route-enter-from,
+.route-leave-to {
+  opacity: 0;
+}
+
+.route-enter-active,
+.route-leave-active {
+  transition: opacity 0.5s ease;
 }
 </style>
