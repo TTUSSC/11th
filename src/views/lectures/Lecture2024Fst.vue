@@ -9,8 +9,13 @@ const lectures = [
         place: "A3-307",
         tags: ["開源", "迎新"],
 
-        description: "",
+        description: "隨著新學期的到來，許多新生已經加入了大同大學這個大家庭，相信大家都迫不及待想要探索和加入感興趣的社團。我們透過舉辦這次茶會，介紹科學開源服務社，幫助你深入了解我們的社團活動和宗旨，並希望你能成為我們大家庭的一員，共同揮灑青春！",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "https://hackmd.io/@ttussc/SJP5EjghR/%2FSJp-rjlnA",
+        kktix: "https://ttussc.kktix.cc/events/teaparty2024",
     },
     {
         date: "9/19",
@@ -21,6 +26,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "9/26",
@@ -31,6 +41,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "9/30",
@@ -41,6 +56,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "10/3",
@@ -51,6 +71,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "10/7",
@@ -61,6 +86,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "10/17",
@@ -71,6 +101,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "10/21",
@@ -81,6 +116,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "11/4",
@@ -91,6 +131,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "11/7",
@@ -101,6 +146,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "11/14",
@@ -111,6 +161,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "11/21",
@@ -121,6 +176,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "11/28",
@@ -131,6 +191,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "12/5",
@@ -141,6 +206,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "12/12",
@@ -151,6 +221,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "12/14",
@@ -161,6 +236,11 @@ const lectures = [
 
         description: "",
         timeline: [],
+        slide: "",
+        slido: "",
+        handout: "",
+        note: "",
+        kktix: "",
     },
     {
         date: "12/16",
@@ -179,6 +259,7 @@ const lectures = [
         slido: "",
         handout: "",
         note: "",
+        kktix: "",
     },
 ];
 
@@ -195,6 +276,14 @@ const closeModal = () => {
 };
 
 const isButtonsShow = computed(() => { return selectedLecture.value.slido || selectedLecture.value.slide || selectedLecture.value.note || selectedLecture.value.handout });
+
+function openLinkBlank(url) {
+    if (url) {
+        window.open(selectedLecture.value.kktix, '_blank')
+    } else {
+        console.error('url error')
+    }
+}
 </script>
 
 <template>
@@ -280,8 +369,10 @@ const isButtonsShow = computed(() => { return selectedLecture.value.slido || sel
                     </div>
                 </section>
                 <footer class="modal-card-foot is-flex">
-                    <button class="button ml-auto is-success" :disabled="selectedLecture.kktix != ''">KKTIX
-                        報名</button>
+                    <button class="button ml-auto is-success" @click="openLinkBlank(selectedLecture.kktix);"
+                        :disabled="!selectedLecture.kktix">
+                        KKTIX 報名
+                    </button>
                 </footer>
             </div>
         </div>
