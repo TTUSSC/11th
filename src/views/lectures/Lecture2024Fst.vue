@@ -55,7 +55,7 @@ const lectures = [
     {
         date: "10/7",
         name: "Re：從 C 開始的大學生活（上）",
-        speaker: "張乃文",
+        speaker: "阿文",
         place: "A3-200",
         tags: ["C", "程式設計"],
 
@@ -65,7 +65,7 @@ const lectures = [
     {
         date: "10/17",
         name: "Re：從 C 開始的大學生活（下）",
-        speaker: "張乃文",
+        speaker: "阿文",
         place: "A3-200",
         tags: ["C", "程式設計"],
 
