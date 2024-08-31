@@ -56,14 +56,14 @@ const lectures = [
         name: "開源工具大補帖",
         speaker: "Yuto",
         place: "A3 8F 樂學空間",
-        tags: ["Linux","Markdown"]
+        tags: ["Linux", "Markdown"]
     },
     {
         date: "4/15",
         name: "Denny學長的Git教學（上）",
         speaker: "Denny",
         place: "A3-200",
-        tags: ["Git","多人協作"]
+        tags: ["Git", "多人協作"]
     },
     {
         date: "5/2",
@@ -77,14 +77,14 @@ const lectures = [
         name: "從Python爬蟲認識網路世界",
         speaker: "Yuto",
         place: "A3-200",
-        tags: ["Python","網路爬蟲"]
+        tags: ["Python", "網路爬蟲"]
     },
     {
         date: "5/16",
         name: "Jerry 的 HEXO 分享",
         speaker: "小方",
         place: "A3-200",
-        tags: ["GitHub","HEXO"]
+        tags: ["GitHub", "HEXO"]
     },
     {
         date: "5/23",
@@ -97,30 +97,5 @@ const lectures = [
 </script>
 
 <template>
-    <h1 class="title">2023 下學期 社團課表</h1>
-    <table class="table is-hoverable is-fullwidth">
-        <thead>
-            <tr>
-                <th>日期</th>
-                <th>名稱</th>
-                <th>講師</th>
-                <th>地點</th>
-                <th>標籤</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="lecture in lectures" :key="lecture.id">
-                <td>{{ lecture.date }}</td>
-                <td>
-                    <a>{{ lecture.name }}</a>
-                </td>
-                <td>{{ lecture.speaker }}</td>
-                <td>{{ lecture.place }}</td>
-                <td>
-                    <span v-for="tag in lecture.tags" :key="tag.id" class="tag is-info is-light mr-1">#{{ tag }}</span>
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
+    <LecturesTableCom title="2023 下學期 社團課表" :lectures="lectures" />
 </template>

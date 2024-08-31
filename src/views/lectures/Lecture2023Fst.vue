@@ -19,49 +19,49 @@ const lectures = [
         name: "轉生開源世界無意間竟獲得了最強武器是否搞錯了社麼",
         speaker: "Yuto",
         place: "A3-200",
-        tags: ["開源","HackMD"]
+        tags: ["開源", "HackMD"]
     },
     {
         date: "10/9",
         name: "怕麻煩的我，把Shell學好就對了!",
         speaker: "Stanley",
         place: "A3-200",
-        tags: ["OS","Linux"]
+        tags: ["OS", "Linux"]
     },
     {
         date: "10/16",
         name: "從printf()開始的扣頂生活",
         speaker: "Yuto",
         place: "A3-200",
-        tags: ["C","程式設計"]
+        tags: ["C", "程式設計"]
     },
     {
         date: "11/6",
         name: "關於我用迴圈旋轉自己的那檔事",
         speaker: "Yuto",
         place: "A3-200",
-        tags: ["C","程式設計"]
+        tags: ["C", "程式設計"]
     },
     {
         date: "11/13",
         name: "Useless Box 實作1",
         speaker: "吳享恩",
         place: "A3-200",
-        tags: ["設計","創客"]
+        tags: ["設計", "創客"]
     },
     {
         date: "11/20",
         name: "Useless box 實作2",
         speaker: "吳享恩",
         place: "A3-200",
-        tags: ["設計","創客"]
+        tags: ["設計", "創客"]
     },
     {
         date: "11/27",
         name: "Arrr我要du到你說no",
         speaker: "劉玠祐",
         place: "A3-200",
-        tags: ["Arduino","創客"]
+        tags: ["Arduino", "創客"]
     },
     {
         date: "12/4",
@@ -81,30 +81,5 @@ const lectures = [
 </script>
 
 <template>
-    <h1 class="title">2023 上學期 社團課表</h1>
-    <table class="table is-hoverable is-fullwidth">
-        <thead>
-            <tr>
-                <th>日期</th>
-                <th>名稱</th>
-                <th>講師</th>
-                <th>地點</th>
-                <th>標籤</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="lecture in lectures" :key="lecture.id">
-                <td>{{ lecture.date }}</td>
-                <td>
-                    <a>{{ lecture.name }}</a>
-                </td>
-                <td>{{ lecture.speaker }}</td>
-                <td>{{ lecture.place }}</td>
-                <td>
-                    <span v-for="tag in lecture.tags" :key="tag.id" class="tag is-info is-light mr-1">#{{ tag }}</span>
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
+    <LecturesTableCom title="2023 上學期 社團課表" :lectures="lectures" />
 </template>
