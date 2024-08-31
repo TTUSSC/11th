@@ -78,25 +78,29 @@ function openLinkBlank(url) {
                             <span><strong>地點：</strong> {{ selectedLecture?.place }}</span><br>
                         </p>
                         <div v-if="isButtonsShow" class="buttons">
-                            <a v-if="selectedLecture.slide" :href="selectedLecture.slide" class="button is-warning">
+                            <a v-if="selectedLecture.slide" :href="selectedLecture.slide" class="button is-warning"
+                                target="_blank">
                                 <span class="icon">
                                     <i class="fa-solid fa-file-powerpoint"></i>
                                 </span>
                                 <span>簡報</span>
                             </a>
-                            <a v-if="selectedLecture.handout" :href="selectedLecture.handout" class="button is-info">
+                            <a v-if="selectedLecture.handout" :href="selectedLecture.handout" class="button is-info"
+                                target="_blank">
                                 <span class="icon">
                                     <i class="fa-solid fa-book"></i>
                                 </span>
                                 <span>講議</span>
                             </a>
-                            <a v-if="selectedLecture.slido" :href="selectedLecture.slido" class="button is-success">
+                            <a v-if="selectedLecture.slido" :href="selectedLecture.slido" class="button is-success"
+                                target="_blank">
                                 <span class="icon">
                                     <i class="fa-solid fa-circle-question"></i>
                                 </span>
                                 <span>Slido</span>
                             </a>
-                            <a v-if="selectedLecture.note" :href="selectedLecture.note" class="button is-dark">
+                            <a v-if="selectedLecture.note" :href="selectedLecture.note" class="button is-dark"
+                                target="_blank">
                                 <span class="icon">
                                     <i class="fa-solid fa-file-lines"></i>
                                 </span>
@@ -104,7 +108,7 @@ function openLinkBlank(url) {
                             </a>
                         </div>
                         <div class="my-2" v-if="selectedLecture.description != ''">
-                            <h2 class="title is-4">活動內容</h2>
+                            <h2 class="title is-4">活動簡介</h2>
                             <p>
                                 {{ selectedLecture.description }}
                             </p>
