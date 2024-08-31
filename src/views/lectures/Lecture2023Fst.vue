@@ -1,4 +1,6 @@
 <script setup>
+import LecturesTableCom from '@/components/LecturesTableCom.vue';
+
 const lectures = [
     {
         date: "9/18",
