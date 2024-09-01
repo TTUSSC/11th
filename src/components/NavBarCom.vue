@@ -1,5 +1,8 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
 
 const is_active = ref(false);
 
@@ -11,11 +14,28 @@ const closeMenu = () => {
     is_active.value = false;
 }
 
+const count = ref(0);
+
+const countUp = () => {
+    count.value++;
+    if (count.value >= 10) {
+        alert("ttussc{you_really_click_it_ten_times}");
+        count.value = 0;
+    }
+}
+
+watch(
+    () => route.path,
+    () => {
+        /// console.log(`路徑從 ${oldPath} 變更為 ${newPath}`);
+        count.value = 0;
+    }
+);
 </script>
 <template>
     <nav class="navbar is-transparent" v-bind:class="{ 'is-active': is_active }">
         <div class="navbar-brand">
-            <RouterLink class="navbar-item" to="/">
+            <RouterLink class="navbar-item" to="/" @click="countUp();">
                 <span class="icon-text">
                     <span class="icon">
                         <img src="/img/ssc_logo.png" width="30" height="30">
