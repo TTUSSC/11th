@@ -30,7 +30,7 @@ const lectures = [
         slido: "",
         handout: "",
         note: "",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/opensrc113",
     },
     {
         date: "9/26",
@@ -45,7 +45,7 @@ const lectures = [
         slido: "",
         handout: "",
         note: "",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/markdown113",
     },
     {
         date: "10/3",
@@ -60,7 +60,7 @@ const lectures = [
         slido: "",
         handout: "",
         note: "",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/shell113",
     },
     {
         date: "10/7",
@@ -75,7 +75,7 @@ const lectures = [
         slido: "",
         handout: "",
         note: "",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/p1clang113",
     },
     {
         date: "10/17",
