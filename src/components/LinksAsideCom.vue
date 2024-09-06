@@ -1,7 +1,7 @@
 <template>
     <aside class="menu box">
         <p class="menu-label">
-            社群／Social Media
+            連結／Links
         </p>
         <ul class="menu-list">
             <li>
@@ -31,6 +31,24 @@
                             <i class="fa-brands fa-discord"></i>
                         </span>
                         <span>Discord 群組</span>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ctfd.yuto0226.com" target=“_blank”><span class="icon-text">
+                        <span class="icon">
+                            <i class="fa-solid fa-paperclip"></i>
+                        </span>
+                        <span>CTF 平台</span>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="https://forms.gle/9bsZQXTAdzzdd2Xy9" target=“_blank”><span class="icon-text">
+                        <span class="icon">
+                            <i class="fa-solid fa-paperclip"></i>
+                        </span>
+                        <span>入社表單</span>
                     </span>
                 </a>
             </li>
