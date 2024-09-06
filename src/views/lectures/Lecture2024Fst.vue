@@ -48,21 +48,6 @@ const lectures = [
         kktix: "",
     },
     {
-        date: "9/30",
-        name: "不會被女朋友打的『攝影入門』",
-        speaker: "攝影社",
-        place: "A3-307",
-        tags: ["攝影", "入門"],
-
-        description: "",
-        timeline: [],
-        slide: "",
-        slido: "",
-        handout: "",
-        note: "",
-        kktix: "",
-    },
-    {
         date: "10/3",
         name: "怕麻煩的話，就Shell出你的指令吧",
         speaker: "芋泥",
