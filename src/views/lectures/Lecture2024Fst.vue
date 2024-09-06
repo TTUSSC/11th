@@ -34,7 +34,7 @@ const lectures = [
     },
     {
         date: "9/26",
-        name: "Markdown",
+        name: "社會在走，共筆要有",
         speaker: "Willy",
         place: "A3-200",
         tags: ["HackMD"],
