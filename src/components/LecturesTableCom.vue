@@ -113,6 +113,14 @@ function openLinkBlank(url) {
                                 {{ selectedLecture.description }}
                             </p>
                         </div>
+                        <div class="my-2" v-if="selectedLecture.timeline != []">
+                            <h2 class="title is-4">活動流程</h2>
+                            <p>
+                            <ul>
+                                <li v-for="time in selectedLecture.timeline" :key="time.id"></li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
                 </section>
                 <footer class="modal-card-foot is-flex">
