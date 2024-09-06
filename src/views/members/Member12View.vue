@@ -14,11 +14,11 @@ const members_info_12 = [
         tags: []
     },
     {
-        image: "",
+        image: trueURL("img/member/allen.jpg"),
         name: "陳彥廷",
         title: "副社長",
         ig: "maverick_01_freedom",
-        desc: "",
+        desc: "電機系學生，能自己完成的就自己做，不忘初心，盡力就好，一切隨緣....",
         tags: []
     },
     {
