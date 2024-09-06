@@ -5,7 +5,7 @@ const lectures = [
     {
         date: "9/12",
         name: "開源茶會",
-        speaker: "Willy",
+        speaker: "威力",
         place: "A3-307",
         tags: ["開源", "迎新"],
 
@@ -19,12 +19,12 @@ const lectures = [
     },
     {
         date: "9/19",
-        name: "開源是什麼",
-        speaker: "Willy",
+        name: "開源新手村",
+        speaker: "威力",
         place: "A3-200",
         tags: ["開源"],
 
-        description: "",
+        description: "在這堂課中，我們將探索開源的核心理念及其對現代科技的影響。課程將介紹開源軟體的基本原則和價值，透過實例展示如何促進創新、協作與學習。我們將討論開源專案對科學研究、軟體開發的影響，並透過 Kahoot！遊戲加深理解。歡迎對開源文化感興趣的同學一同參與！期待能夠凝聚社團的向心力，激勵每位社員積極參與社團活動。",
         timeline: [],
         slide: "",
         slido: "",
@@ -34,12 +34,12 @@ const lectures = [
     },
     {
         date: "9/26",
-        name: "社會在走，共筆要有",
-        speaker: "Willy",
+        name: "0 到 1 的社群協作守則",
+        speaker: "威力",
         place: "A3-200",
-        tags: ["HackMD"],
+        tags: ["HackMD","Markdown","協作"],
 
-        description: "",
+        description: "Markdown 是一種輕量級標記語言，適合快速撰寫和編輯格式化文件。本次社課將帶領社員們開啟第一份共筆，讓大家透過實際參與、體驗如何利用 Markdown 進行協作筆記，了解共筆的基本概念與技巧。將教授共筆的訣竅與撰寫方法，並介紹 HackMD 的實用小技巧及常用語法，幫助社員們快速上手，增強協作能力，輕鬆融入本社的共筆文化。",
         timeline: [],
         slide: "",
         slido: "",
@@ -69,7 +69,7 @@ const lectures = [
         place: "A3-200",
         tags: ["C", "程式設計"],
 
-        description: "",
+        description: "從介紹Visual Studio Code、Dev-C++、CodeBlocks 等軟體，建立自己寫程式的開發環境，再進入到基礎的C語言，例如：輸出/入、變數宣告、資料型態、數學、邏輯運算、條件判斷，最後利用問題練習來複習本次課堂的內容。",
         timeline: [],
         slide: "",
         slido: "",
@@ -84,7 +84,7 @@ const lectures = [
         place: "A3-200",
         tags: ["C", "程式設計"],
 
-        description: "",
+        description: "本次社課和上次社課隔了10天，在上新進度前，我們會先複習上次社課的內容，接著在進入比較進階的C語言課程，包含：迴圈、函式、陣列，在過程中會有幾個概念性的問題，加深對本次社課內容的印象。",
         timeline: [],
         slide: "",
         slido: "",
@@ -95,11 +95,11 @@ const lectures = [
     {
         date: "10/21",
         name: "考前讀書會",
-        speaker: "Willy",
+        speaker: "威力",
         place: "A3 8F 樂學空間",
         tags: ["工作坊", "讀書"],
 
-        description: "",
+        description: "以往學校大考前，社團活動會暫停一次，讓社團的夥伴們專心準備大考。此次與以往不同，希望聚集社團的大家一起召開讀書會，共同為了學校大考而努力。同學與同學之間可以互相照應外，學長姐也可以協助學弟妹考試準備的方向。",
         timeline: [],
         slide: "",
         slido: "",
@@ -124,12 +124,12 @@ const lectures = [
     },
     {
         date: "11/7",
-        name: "Arduino 基礎介紹",
+        name: "噹噹噹噹~ Arduino 號要來了",
         speaker: "呆呆、Allen",
         place: "A3-200",
         tags: ["Arduino"],
 
-        description: "",
+        description: "Arduino 是將程式邏輯與硬體結合的強大平台。在這次工作坊中，我們將通過簡單的元件，如LED燈控制、蜂鳴器操作、伺服馬達應用，來模擬平交道的運作，幫助社員掌握Arduino的基本操作和應用。這些實驗將加強大家對元件接線的熟練度，並奠定未來專案實作的基礎。不論你是剛接觸Arduino的新手，還是已有經驗的社員，這次活動都將為你提供豐富的學習和交流機會。誠摯邀請對科技與程式設計有興趣的同學共襄盛舉！",
         timeline: [],
         slide: "",
         slido: "",
@@ -139,12 +139,12 @@ const lectures = [
     },
     {
         date: "11/14",
-        name: "Arduino 無用盒",
+        name: "開箱驚喜：Arduino無用盒",
         speaker: "呆呆、Allen",
         place: "A3-200",
         tags: ["Arduino", "創客"],
 
-        description: "",
+        description: "程式設計不僅解決問題，也能帶來樂趣。這次社課，我們將程式設計與雷雕技術相結合，將創意和程式碼轉化為實體作品，創造出獨特的有趣盒子。透過實際操作，我們將體驗到如何將抽象的程式邏輯具體化，並在過程中探索科技與藝術的融合。這不僅能讓我們深化對程式設計的理解，也能激發我們的創造力，讓我們的學習變得更加生動與有趣。",
         timeline: [],
         slide: "",
         slido: "",
@@ -154,12 +154,12 @@ const lectures = [
     },
     {
         date: "11/21",
-        name: "Arduino 門禁卡",
+        name: "小小Arduino，大大門禁",
         speaker: "呆呆、Allen",
         place: "A3-200",
         tags: ["Arduino", "創客"],
 
-        description: "",
+        description: "這次社課將讓我們透過 Arduino 技術，模擬和實現一個門禁卡系統。這不僅有助於提升我們的程式設計和電子工程技能，還能讓我們親身體驗如何將現代科技應用於日常生活中，解決實際問題。通过實際操作，我們將學習如何設計和實作一個簡便而有效的門禁系統，從而更好地理解科技如何影響並改善我們的生活。",
         timeline: [],
         slide: "",
         slido: "",
@@ -169,12 +169,12 @@ const lectures = [
     },
     {
         date: "11/28",
-        name: "作業系統生存指南：Linux 新手的冒險之旅",
+        name: "作業系統生存指南",
         speaker: "小方",
         place: "A3-200",
         tags: ["OS", "Linux"],
 
-        description: "",
+        description: "本次課程專為初學者設計，旨在讓參與者了解作業系統的基本概念及其在電腦運作中的角色。透過介紹不同的 Linux 發行版本並實作 Arch Linux，參與者將學習如何安裝系統和使用基本指令，深入理解 Linux 系統的運作。期待每位成員的踴躍參與！",
         timeline: [],
         slide: "",
         slido: "",
@@ -189,7 +189,7 @@ const lectures = [
         place: "A3-307",
         tags: ["資訊安全"],
 
-        description: "",
+        description: "本次活動將以 CTF（Capture The Flag）為主軸，旨在將參與者引入資訊安全的世界。活動開始時，將透過一系列的講解，介紹 CTF 比賽的起源、目的和基本規則，幫助參與者理解 CTF 是如何運作的。接著，我們會逐步介紹 CTF 的六大領域，包括逆向工程、滲透測試、密碼學、取證分析、網絡安全和編碼安全等，讓參與者對每一個領域都有初步的了解，最後帶大家解 CTF 的題目。",
         timeline: [],
         slide: "",
         slido: "",
@@ -199,12 +199,12 @@ const lectures = [
     },
     {
         date: "12/12",
-        name: "期末大會",
-        speaker: "Willy",
+        name: "期末大會之聖誕狂歡夜",
+        speaker: "威力",
         place: "A3-307",
         tags: ["交換禮物"],
 
-        description: "",
+        description: "親愛的社員們，快來參加我們的期末大會暨聖誕派對吧！我們將回顧本學期的精彩瞬間，並在節日氛圍中展開聖誕交換禮物活動，帶來驚喜和歡樂。不僅如此，還有豐富的輕食和飲料等你來享用。這是一場學期總結和節日慶祝的完美結合，別錯過與大家一起歡慶的機會！",
         timeline: [],
         slide: "",
         slido: "",
@@ -230,7 +230,7 @@ const lectures = [
     {
         date: "12/16",
         name: "考前讀書會",
-        speaker: "Willy",
+        speaker: "威力",
         place: "A3 8F 樂學空間",
         tags: ["工作坊", "讀書"],
 
