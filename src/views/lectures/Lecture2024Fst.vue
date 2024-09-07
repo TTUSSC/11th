@@ -52,7 +52,7 @@ const lectures = [
         name: "0 到 1 的社群協作守則",
         speaker: "威力",
         place: "A3-200",
-        tags: ["HackMD","Markdown","協作"],
+        tags: ["HackMD", "Markdown", "協作"],
 
         description: "Markdown 是一種輕量級標記語言，適合快速撰寫和編輯格式化文件。本次社課將帶領社員們開啟第一份共筆，讓大家透過實際參與、體驗如何利用 Markdown 進行協作筆記，了解共筆的基本概念與技巧。將教授共筆的訣竅與撰寫方法，並介紹 HackMD 的實用小技巧及常用語法，幫助社員們快速上手，增強協作能力，輕鬆融入本社的共筆文化。",
         timeline: [
