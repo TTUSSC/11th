@@ -4,6 +4,7 @@ import LecturesTableCom from '@/components/LecturesTableCom.vue';
 const lectures = [
     {
         date: "2/29",
+        time: "18:00~20:00",
         name: "新學期啟航！回顧及展望",
         speaker: "Yuto",
         place: "A3-307",
@@ -11,6 +12,7 @@ const lectures = [
     },
     {
         date: "3/7",
+        time: "18:00~20:00",
         name: "來從開源一路細說到FOSDEM去",
         speaker: "Timothy",
         place: "A3-200",
@@ -18,6 +20,7 @@ const lectures = [
     },
     {
         date: "3/9",
+        time: "18:00~20:00",
         name: "SITCON 學生計算機年會",
         speaker: "無",
         place: "中研院",
@@ -25,6 +28,7 @@ const lectures = [
     },
     {
         date: "3/14",
+        time: "18:00~20:00",
         name: "古老卻強大的編譯器-Vim",
         speaker: "Timothy",
         place: "A3-200",
@@ -34,6 +38,7 @@ const lectures = [
     },
     {
         date: "3/16",
+        time: "14:00~17:00",
         name: "天使心志工活動",
         speaker: "無",
         place: "台北市立木柵動物園",
@@ -41,6 +46,7 @@ const lectures = [
     },
     {
         date: "3/21",
+        time: "18:00~20:00",
         name: "想要擁有自己的網站嗎？boostrap帶你上手",
         speaker: "張哲嘉",
         place: "A3-200",
@@ -48,6 +54,7 @@ const lectures = [
     },
     {
         date: "3/28",
+        time: "18:00~20:00",
         name: "vue出新世界",
         speaker: "張哲嘉",
         place: "A3-200",
@@ -55,6 +62,7 @@ const lectures = [
     },
     {
         date: "4/13",
+        time: "13:30~17:00",
         name: "開源工具大補帖",
         speaker: "Yuto",
         place: "A3 8F 樂學空間",
@@ -62,6 +70,7 @@ const lectures = [
     },
     {
         date: "4/15",
+        time: "18:00~20:00",
         name: "Denny學長的Git教學（上）",
         speaker: "Denny",
         place: "A3-200",
@@ -69,6 +78,7 @@ const lectures = [
     },
     {
         date: "5/2",
+        time: "18:00~20:00",
         name: "從C語言快速上手Python的基礎實戰",
         speaker: "Yuto",
         place: "A3-200",
@@ -76,6 +86,7 @@ const lectures = [
     },
     {
         date: "5/9",
+        time: "18:00~20:00",
         name: "從Python爬蟲認識網路世界",
         speaker: "Yuto",
         place: "A3-200",
@@ -83,6 +94,7 @@ const lectures = [
     },
     {
         date: "5/16",
+        time: "18:00~20:00",
         name: "Jerry 的 HEXO 分享",
         speaker: "小方",
         place: "A3-200",
@@ -90,6 +102,7 @@ const lectures = [
     },
     {
         date: "5/23",
+        time: "18:00~20:00",
         name: "社團總結&交接",
         speaker: "張芯瑜",
         place: "A3-307",

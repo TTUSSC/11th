@@ -74,6 +74,7 @@ function openLinkBlank(url) {
                         <h1 class="title">{{ selectedLecture?.name }}</h1>
                         <p>
                             <span><strong>日期：</strong> {{ selectedLecture?.date }}</span><br>
+                            <span><strong>時間：</strong> {{ selectedLecture?.time }}</span><br>
                             <span><strong>講師：</strong> {{ selectedLecture?.speaker }}</span><br>
                             <span><strong>地點：</strong> {{ selectedLecture?.place }}</span><br>
                         </p>
