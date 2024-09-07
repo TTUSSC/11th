@@ -109,15 +109,17 @@ function openLinkBlank(url) {
                         </div>
                         <div class="my-2" v-if="selectedLecture.description != ''">
                             <h2 class="title is-4">活動簡介</h2>
-                            <p>
+                            <p class="mb-6">
                                 {{ selectedLecture.description }}
                             </p>
                         </div>
                         <div class="my-2" v-if="selectedLecture.timeline != []">
                             <h2 class="title is-4">活動流程</h2>
-                            <p>
+                            <p class="mb-6">
                             <ul>
-                                <li v-for="time in selectedLecture.timeline" :key="time.id"></li>
+                                <li v-for="time in selectedLecture.timeline" :key="time.id">
+                                    {{ time }}
+                                </li>
                             </ul>
                             </p>
                         </div>
