@@ -20,7 +20,7 @@ const lectures = [
             "19:50~20:00 填寫問卷、收拾場地"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/aB84ftRiHDJBgi6CYpcQ31",
         handout: "",
         note: "https://hackmd.io/@ttussc/SJp-rjlnA",
         kktix: "https://ttussc.kktix.cc/events/teaparty2024",
@@ -41,7 +41,7 @@ const lectures = [
             "19:50~20:00：填寫問卷、收拾場地"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/3x9JxEntqCz1dXFiZ8KvzB",
         handout: "",
         note: "https://hackmd.io/@ttussc/Bk8ycCF30",
         kktix: "https://ttussc.kktix.cc/events/opensrc113",
@@ -63,7 +63,7 @@ const lectures = [
             "19:50~20:00 填寫問卷、收拾場地",
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/byfGu55ooLwK3vgu72xTru",
         handout: "",
         note: "https://hackmd.io/@ttussc/ryaAYRF2A",
         kktix: "https://ttussc.kktix.cc/events/markdown113",
@@ -85,7 +85,7 @@ const lectures = [
             "19:50~20:00 表單回饋"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/2fkHawR4KP2NQxFUwzMapN",
         handout: "",
         note: "https://hackmd.io/@ttussc/rkHnYCKnR",
         kktix: "https://ttussc.kktix.cc/events/shell113",
@@ -106,7 +106,7 @@ const lectures = [
             "19:50~20:00 表單回饋",
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/4TW296oA3oAEFayFQBJsK1",
         handout: "",
         note: "https://hackmd.io/@ttussc/Byxw9CYhC",
         kktix: "https://ttussc.kktix.cc/events/p1clang113",
@@ -127,7 +127,7 @@ const lectures = [
             "19:50~20:00 表單回饋"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/fQ6R44hfpgqACyEPtykDiE",
         handout: "",
         note: "https://hackmd.io/@ttussc/SJMd9CKhA",
         kktix: "",
@@ -183,7 +183,7 @@ const lectures = [
             "19:30~20:00 接合上述三項實驗完成平交道裝置，撰寫程式並進行測試，收集回饋表單。"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/nhq5QwZVkfqUmCh8eJVnk9",
         handout: "",
         note: "https://hackmd.io/@ttussc/HkT1sAthR",
         kktix: "",
@@ -205,7 +205,7 @@ const lectures = [
             "19:50~20:00 社團回饋與表單填寫"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/aRw5Q4mEzvXxuPR7jm8esn",
         handout: "",
         note: "https://hackmd.io/@ttussc/BJRxjCKnA",
         kktix: "",
@@ -226,7 +226,7 @@ const lectures = [
             "19:00~20:00 : 模擬真實門禁卡系統，進行實際操作和程式講解，並根據需要調整和修改程式。最後收集參與者的回饋意見。"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/r9rVfMuVCgudKVqjFAiabt",
         handout: "",
         note: "https://hackmd.io/@ttussc/HktWjRFh0",
         kktix: "",
@@ -247,7 +247,7 @@ const lectures = [
             "19:00~20:00 實際操作 Arch Linux ，介紹 Linux 各發行版的不同"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/7E1RBtFZt747zZT9QAEwBZ",
         handout: "",
         note: "https://hackmd.io/@ttussc/rJfGsRtnC",
         kktix: "",
@@ -267,7 +267,7 @@ const lectures = [
             "19:00~20:00 介紹 CTF 帶大家玩 KAHOOT 題目"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/3wCkGTd7kjCPfyh9hXHDzy",
         handout: "",
         note: "https://hackmd.io/@ttussc/Sy2zjAF3C",
         kktix: "",
@@ -288,7 +288,7 @@ const lectures = [
             "19:50~20:00 填寫問卷、收拾場地"
         ],
         slide: "",
-        slido: "",
+        slido: "https://app.sli.do/event/uknkv6KpkicyQe4ai1Lwhv",
         handout: "",
         note: "https://hackmd.io/@ttussc/HyeSjRtnA",
         kktix: "",
