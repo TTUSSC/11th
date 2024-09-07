@@ -261,7 +261,7 @@ const lectures = [
     },
     {
         date: "12/12",
-        name: "期末大會之聖誕狂歡夜",
+        name: "期末大會&聖誕狂歡夜",
         speaker: "威力",
         place: "A3-307",
         tags: ["交換禮物"],
