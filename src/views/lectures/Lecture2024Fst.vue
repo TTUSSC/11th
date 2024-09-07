@@ -22,7 +22,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "https://hackmd.io/@ttussc/SJP5EjghR/%2FSJp-rjlnA",
+        note: "https://hackmd.io/@ttussc/SJp-rjlnA",
         kktix: "https://ttussc.kktix.cc/events/teaparty2024",
     },
     {
@@ -43,7 +43,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/Bk8ycCF30",
         kktix: "https://ttussc.kktix.cc/events/opensrc113",
     },
     {
@@ -65,7 +65,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/ryaAYRF2A",
         kktix: "https://ttussc.kktix.cc/events/markdown113",
     },
     {
@@ -87,7 +87,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/rkHnYCKnR",
         kktix: "https://ttussc.kktix.cc/events/shell113",
     },
     {
@@ -108,7 +108,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/Byxw9CYhC",
         kktix: "https://ttussc.kktix.cc/events/p1clang113",
     },
     {
@@ -129,7 +129,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/SJMd9CKhA",
         kktix: "",
     },
     {
@@ -185,7 +185,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/HkT1sAthR",
         kktix: "",
     },
     {
@@ -207,7 +207,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/BJRxjCKnA",
         kktix: "",
     },
     {
@@ -228,7 +228,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/HktWjRFh0",
         kktix: "",
     },
     {
@@ -249,7 +249,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/rJfGsRtnC",
         kktix: "",
     },
     {
@@ -269,7 +269,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/Sy2zjAF3C",
         kktix: "",
     },
     {
@@ -290,7 +290,7 @@ const lectures = [
         slide: "",
         slido: "",
         handout: "",
-        note: "",
+        note: "https://hackmd.io/@ttussc/HyeSjRtnA",
         kktix: "",
     },
     {
