@@ -27,6 +27,12 @@ function openLinkBlank(url) {
         console.error('url error')
     }
 }
+
+const kktixButtonText = computed(() => {
+    return selectedLecture.value && selectedLecture.value.kktix 
+        ? 'KKTIX 報名' 
+        : '暫時無法報名';
+});
 </script>
 
 <template>
@@ -127,9 +133,12 @@ function openLinkBlank(url) {
                     </div>
                 </section>
                 <footer class="modal-card-foot is-flex">
-                    <button class="button ml-auto is-success" @click="openLinkBlank(selectedLecture.kktix);"
-                        :disabled="!selectedLecture.kktix">
-                        KKTIX 報名
+                    <button 
+                        class="button ml-auto is-success" 
+                        @click="openLinkBlank(selectedLecture.kktix)"
+                        :disabled="!selectedLecture.kktix"
+                        >
+                        {{ kktixButtonText }}
                     </button>
                 </footer>
             </div>
