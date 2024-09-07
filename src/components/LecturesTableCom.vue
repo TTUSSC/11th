@@ -29,8 +29,8 @@ function openLinkBlank(url) {
 }
 
 const kktixButtonText = computed(() => {
-    return selectedLecture.value && selectedLecture.value.kktix 
-        ? 'KKTIX 報名' 
+    return selectedLecture.value && selectedLecture.value.kktix
+        ? 'KKTIX 報名'
         : '暫時無法報名';
 });
 </script>
@@ -79,7 +79,11 @@ const kktixButtonText = computed(() => {
                         </span>
                         <h1 class="title">{{ selectedLecture?.name }}</h1>
                         <p>
-                            <span><strong>日期：</strong> {{ selectedLecture?.date }}</span><br>
+                            <span>
+                                <strong>日期：</strong> {{ selectedLecture?.date }}{{ selectedLecture?.weekday ? "（" +
+                                    selectedLecture?.weekday + "）" : ""
+                                }}
+                            </span><br>
                             <span><strong>時間：</strong> {{ selectedLecture?.time }}</span><br>
                             <span><strong>講師：</strong> {{ selectedLecture?.speaker }}</span><br>
                             <span><strong>地點：</strong> {{ selectedLecture?.place }}</span><br>
@@ -133,11 +137,8 @@ const kktixButtonText = computed(() => {
                     </div>
                 </section>
                 <footer class="modal-card-foot is-flex">
-                    <button 
-                        class="button ml-auto is-success" 
-                        @click="openLinkBlank(selectedLecture.kktix)"
-                        :disabled="!selectedLecture.kktix"
-                        >
+                    <button class="button ml-auto is-success" @click="openLinkBlank(selectedLecture.kktix)"
+                        :disabled="!selectedLecture.kktix">
                         {{ kktixButtonText }}
                     </button>
                 </footer>

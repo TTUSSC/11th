@@ -27,6 +27,7 @@ const lectures = [
     },
     {
         date: "9/19",
+        weekday: "一",
         time: "18:00~20:00",
         name: "開源新手村",
         speaker: "威力",
