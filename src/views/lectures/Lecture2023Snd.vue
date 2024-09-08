@@ -4,6 +4,7 @@ import LecturesTableCom from '@/components/LecturesTableCom.vue';
 const lectures = [
     {
         date: "2/29",
+        weekday: "四",
         time: "18:00~20:00",
         name: "新學期啟航！回顧及展望",
         speaker: "Yuto",
@@ -12,6 +13,7 @@ const lectures = [
     },
     {
         date: "3/7",
+        weekday: "四",
         time: "18:00~20:00",
         name: "來從開源一路細說到FOSDEM去",
         speaker: "Timothy",
@@ -20,6 +22,7 @@ const lectures = [
     },
     {
         date: "3/9",
+        weekday: "六",
         time: "18:00~20:00",
         name: "SITCON 學生計算機年會",
         speaker: "無",
@@ -28,6 +31,7 @@ const lectures = [
     },
     {
         date: "3/14",
+        weekday: "四",
         time: "18:00~20:00",
         name: "古老卻強大的編譯器-Vim",
         speaker: "Timothy",
@@ -38,6 +42,7 @@ const lectures = [
     },
     {
         date: "3/16",
+        weekday: "六",
         time: "14:00~17:00",
         name: "天使心志工活動",
         speaker: "無",
@@ -46,6 +51,7 @@ const lectures = [
     },
     {
         date: "3/21",
+        weekday: "四",
         time: "18:00~20:00",
         name: "想要擁有自己的網站嗎？boostrap帶你上手",
         speaker: "張哲嘉",
@@ -54,6 +60,7 @@ const lectures = [
     },
     {
         date: "3/28",
+        weekday: "四",
         time: "18:00~20:00",
         name: "vue出新世界",
         speaker: "張哲嘉",
@@ -62,6 +69,7 @@ const lectures = [
     },
     {
         date: "4/13",
+        weekday: "六",
         time: "13:30~17:00",
         name: "開源工具大補帖",
         speaker: "Yuto",
@@ -70,6 +78,7 @@ const lectures = [
     },
     {
         date: "4/15",
+        weekday: "一",
         time: "18:00~20:00",
         name: "Denny學長的Git教學（上）",
         speaker: "Denny",
@@ -77,7 +86,17 @@ const lectures = [
         tags: ["Git", "多人協作"]
     },
     {
+        date: "4/22",
+        weekday: "一",
+        time: "18:00~20:00",
+        name: "Denny學長的Git教學（下）",
+        speaker: "Denny",
+        place: "A3-200",
+        tags: ["Git", "多人協作"]
+    },
+    {
         date: "5/2",
+        weekday: "四",
         time: "18:00~20:00",
         name: "從C語言快速上手Python的基礎實戰",
         speaker: "Yuto",
@@ -86,6 +105,7 @@ const lectures = [
     },
     {
         date: "5/9",
+        weekday: "四",
         time: "18:00~20:00",
         name: "從Python爬蟲認識網路世界",
         speaker: "Yuto",
@@ -94,6 +114,7 @@ const lectures = [
     },
     {
         date: "5/16",
+        weekday: "四",
         time: "18:00~20:00",
         name: "Jerry 的 HEXO 分享",
         speaker: "小方",
@@ -102,6 +123,7 @@ const lectures = [
     },
     {
         date: "5/23",
+        weekday: "四",
         time: "18:00~20:00",
         name: "社團總結&交接",
         speaker: "張芯瑜",

@@ -4,6 +4,7 @@ import LecturesTableCom from '@/components/LecturesTableCom.vue';
 const lectures = [
     {
         date: "9/12",
+        weekday: "四",
         time: "18:00~20:00",
         name: "開源茶會",
         speaker: "威力",
@@ -27,7 +28,7 @@ const lectures = [
     },
     {
         date: "9/19",
-        weekday: "一",
+        weekday: "四",
         time: "18:00~20:00",
         name: "開源新手村",
         speaker: "威力",
@@ -49,6 +50,7 @@ const lectures = [
     },
     {
         date: "9/26",
+        weekday: "四",
         time: "18:00~20:00",
         name: "0 到 1 的社群協作守則",
         speaker: "威力",
@@ -71,6 +73,7 @@ const lectures = [
     },
     {
         date: "10/3",
+        weekday: "四",
         time: "18:00~20:00",
         name: "怕麻煩的話，就Shell出你的指令吧",
         speaker: "芋泥",
@@ -93,6 +96,7 @@ const lectures = [
     },
     {
         date: "10/7",
+        weekday: "一",
         time: "18:00~20:00",
         name: "Re：從 C 開始的大學生活（上）",
         speaker: "阿文",
@@ -114,6 +118,7 @@ const lectures = [
     },
     {
         date: "10/17",
+        weekday: "四",
         time: "18:00~20:00",
         name: "Re：從 C 開始的大學生活（下）",
         speaker: "阿文",
@@ -135,6 +140,7 @@ const lectures = [
     },
     {
         date: "10/21",
+        weekday: "一",
         time: "18:00~20:00",
         name: "考前讀書會",
         speaker: "威力",
@@ -151,6 +157,7 @@ const lectures = [
     },
     {
         date: "11/4",
+        weekday: "一",
         time: "18:00~20:00",
         name: "E-mail(工作坊)",
         speaker: "神秘講者",
@@ -167,6 +174,7 @@ const lectures = [
     },
     {
         date: "11/7",
+        weekday: "四",
         time: "18:00~20:00",
         name: "噹噹噹噹~ Arduino 號要來了",
         speaker: "呆呆、Allen",
@@ -191,6 +199,7 @@ const lectures = [
     },
     {
         date: "11/14",
+        weekday: "四",
         time: "18:00~20:00",
         name: "開箱驚喜：Arduino無用盒",
         speaker: "呆呆、Allen",
@@ -213,6 +222,7 @@ const lectures = [
     },
     {
         date: "11/21",
+        weekday: "四",
         time: "18:00~20:00",
         name: "小小Arduino，大大門禁",
         speaker: "呆呆、Allen",
@@ -234,6 +244,7 @@ const lectures = [
     },
     {
         date: "11/28",
+        weekday: "四",
         time: "18:00~20:00",
         name: "作業系統生存指南",
         speaker: "小方",
@@ -255,6 +266,7 @@ const lectures = [
     },
     {
         date: "12/5",
+        weekday: "四",
         time: "18:00~20:00",
         name: "想學黑魔法嗎？我告訴你有哪些技能",
         speaker: "Timothy",
@@ -275,6 +287,7 @@ const lectures = [
     },
     {
         date: "12/12",
+        weekday: "四",
         time: "18:00~20:00",
         name: "期末大會&聖誕狂歡夜",
         speaker: "威力",
@@ -296,6 +309,7 @@ const lectures = [
     },
     {
         date: "12/14",
+        weekday: "六",
         name: "愛奇兒營隊",
         speaker: "無",
         place: "待定",
@@ -311,6 +325,7 @@ const lectures = [
     },
     {
         date: "12/16",
+        weekday: "一",
         time: "18:00~20:00",
         name: "考前讀書會",
         speaker: "威力",
