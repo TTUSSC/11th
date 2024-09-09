@@ -118,7 +118,7 @@ const kktixButtonText = computed(() => {
                                 <span>共筆</span>
                             </a>
                         </div>
-                        <div class="my-2" v-if="selectedLecture.description != ''">
+                        <div class="my-2" v-if="selectedLecture.description">
                             <h2 class="title is-4">活動簡介</h2>
                             <p class="mb-6">
                                 {{ selectedLecture.description }}
