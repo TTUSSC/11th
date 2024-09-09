@@ -124,7 +124,7 @@ const kktixButtonText = computed(() => {
                                 {{ selectedLecture.description }}
                             </p>
                         </div>
-                        <div class="my-2" v-if="selectedLecture.timeline != []">
+                        <div class="my-2" v-if="selectedLecture.timeline && selectedLecture.timeline.length > 0">
                             <h2 class="title is-4">活動流程</h2>
                             <p class="mb-6">
                             <ul>
