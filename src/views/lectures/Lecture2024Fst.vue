@@ -214,7 +214,7 @@ const lectures = [
             "19:20~19:50 : 將線路與盒子結合，完成無用盒整體組裝，並進行程式調整。",
             "19:50~20:00 社團回饋與表單填寫"
         ],
-        slide: "",
+        slide: "https://www.canva.com/design/DAGQPFwQnzs/qrJPlJwbXhDrviK7GhcaIg/view?utm_content=DAGQPFwQnzs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         slido: "https://app.sli.do/event/aRw5Q4mEzvXxuPR7jm8esn",
         handout: "",
         note: "https://hackmd.io/@ttussc/BJRxjCKnA",
