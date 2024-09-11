@@ -20,7 +20,7 @@ const lectures = [
             "19:10~19:50 桌遊團康活動",
             "19:50~20:00 填寫問卷、收拾場地"
         ],
-        slide: "",
+        slide: "https://www.canva.com/design/DAGQPFwQnzs/qrJPlJwbXhDrviK7GhcaIg/view?utm_content=DAGQPFwQnzs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         slido: "https://app.sli.do/event/aB84ftRiHDJBgi6CYpcQ31",
         handout: "",
         note: "https://hackmd.io/@ttussc/SJp-rjlnA",
