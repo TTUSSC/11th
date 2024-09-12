@@ -177,7 +177,7 @@ const lectures = [
         weekday: "四",
         time: "18:00~20:00",
         name: "Arduino 微處理器入門",
-        speaker: "呆呆、Allen",
+        speaker: "Allen",
         place: "A3-200",
         tags: ["Arduino"],
 
@@ -202,7 +202,7 @@ const lectures = [
         weekday: "四",
         time: "18:00~20:00",
         name: "無用盒專題實作",
-        speaker: "呆呆、Allen",
+        speaker: "呆呆",
         place: "A3-200",
         tags: ["Arduino", "創客"],
 
@@ -225,7 +225,7 @@ const lectures = [
         weekday: "四",
         time: "18:00~20:00",
         name: "Arduino RFID 實戰",
-        speaker: "呆呆、Allen",
+        speaker: "Allen",
         place: "A3-200",
         tags: ["Arduino", "創客"],
 
