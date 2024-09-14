@@ -136,7 +136,7 @@ const lectures = [
         slido: "https://app.sli.do/event/fQ6R44hfpgqACyEPtykDiE",
         handout: "",
         note: "https://hackmd.io/@ttussc/SJMd9CKhA",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/p2clang113",
     },
     {
         date: "10/21",
