@@ -42,7 +42,7 @@ const lectures = [
             "19:30~19:50：Kahoot！時間",
             "19:50~20:00：填寫問卷、收拾場地"
         ],
-        slide: "",
+        slide: "https://www.canva.com/design/DAGQ5_ONUM4/8bSIXCfQ4ihhEAWvy0Aobg/view?utm_content=DAGQ5_ONUM4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
         slido: "https://app.sli.do/event/3x9JxEntqCz1dXFiZ8KvzB",
         handout: "",
         note: "https://hackmd.io/@ttussc/Bk8ycCF30",
