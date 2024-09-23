@@ -22,14 +22,6 @@ const members_info_12 = [
         tags: []
     },
     {
-        image:"",
-        name: "連婉妤",
-        title: "設計組長",
-        ig: "kt._422",
-        desc: "",
-        tags: []
-    },
-    {
         image: trueURL("img/member/fang.jpg"),
         name: "方健宇",
         title: "教學組長",
@@ -50,6 +42,14 @@ const members_info_12 = [
         name: "蔡詠竣",
         title: "資訊組長",
         ig: "speedcubing.top",
+        desc: "",
+        tags: []
+    },
+    {
+        image:"",
+        name: "連婉妤",
+        title: "設計組長",
+        ig: "kt._422",
         desc: "",
         tags: []
     },
