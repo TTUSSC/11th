@@ -170,7 +170,7 @@ const lectures = [
         slido: "",
         handout: "",
         note: "",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/email113",
     },
     {
         date: "11/7",
@@ -195,7 +195,7 @@ const lectures = [
         slido: "https://app.sli.do/event/nhq5QwZVkfqUmCh8eJVnk9",
         handout: "",
         note: "https://hackmd.io/@ttussc/HkT1sAthR",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/p1arduino113",
     },
     {
         date: "11/14",
@@ -218,7 +218,7 @@ const lectures = [
         slido: "https://app.sli.do/event/aRw5Q4mEzvXxuPR7jm8esn",
         handout: "",
         note: "https://hackmd.io/@ttussc/BJRxjCKnA",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/p3arduino113",
     },
     {
         date: "11/21",
@@ -240,7 +240,7 @@ const lectures = [
         slido: "https://app.sli.do/event/r9rVfMuVCgudKVqjFAiabt",
         handout: "",
         note: "https://hackmd.io/@ttussc/HktWjRFh0",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/p2arduino113",
     },
     {
         date: "11/28",
@@ -262,7 +262,7 @@ const lectures = [
         slido: "https://app.sli.do/event/7E1RBtFZt747zZT9QAEwBZ",
         handout: "",
         note: "https://hackmd.io/@ttussc/rJfGsRtnC",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/linuxbasic113",
     },
     {
         date: "12/5",
@@ -283,7 +283,7 @@ const lectures = [
         slido: "https://app.sli.do/event/3wCkGTd7kjCPfyh9hXHDzy",
         handout: "",
         note: "https://hackmd.io/@ttussc/Sy2zjAF3C",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/ctf113",
     },
     {
         date: "12/12",
@@ -305,7 +305,7 @@ const lectures = [
         slido: "https://app.sli.do/event/uknkv6KpkicyQe4ai1Lwhv",
         handout: "",
         note: "https://hackmd.io/@ttussc/HyeSjRtnA",
-        kktix: "",
+        kktix: "https://ttussc.kktix.cc/events/afterparty113",
     },
     {
         date: "12/14",
