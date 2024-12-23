@@ -1,29 +1,43 @@
-name: deploy
+name: Deploy to GitHub Pages
 
-on: [push]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🛎️ Checkout code
+      - name: 🛎️ Checkout repository
         uses: actions/checkout@v4
 
       - name: 📦 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: 📥 Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: 🏗️ Build
+      - name: 🔍 Lint check
+        run: npm run lint
+
+      - name: 🏗️ Build project
         run: npm run build
+        env:
+          NODE_ENV: production
 
-      - name: 🚀Deploy to GitHub Pages🚀 # --> this deploys to gh-pages
-        if: github.ref == 'refs/heads/main'
+      - name: 🚀 Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          commit_message: 'deploy: ${{ github.event.head_commit.message }}'
+          enable_jekyll: false
+          cname: ${{ secrets.CNAME }}
