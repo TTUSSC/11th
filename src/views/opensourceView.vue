@@ -236,13 +236,11 @@
                 </div>
 
                 <!-- 頁尾宣告 -->
-                <p>
                 <blockquote>
                     作者：羅崧瑋 @ <a href="https://github.com/TTUSSC/" target="_blank" rel="TTUSSC">TTUSSC</a><br />
                     版權聲明：<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a><br />
                     有誤之處以及侵權之處，還請通知。本人會盡快處理。
                 </blockquote>
-                </p>
                 <button class="button is-info is-light" onclick="window.location.href='#'">
                     <span class="icon-text">
                         <span class="icon">

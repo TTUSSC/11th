@@ -126,13 +126,11 @@ const kktixButtonText = computed(() => {
                         </div>
                         <div class="my-2" v-if="selectedLecture.timeline && selectedLecture.timeline.length > 0">
                             <h2 class="title is-4">活動流程</h2>
-                            <p class="mb-6">
-                            <ul>
+                            <ul class="mb-6">
                                 <li v-for="time in selectedLecture.timeline" :key="time.id">
                                     {{ time }}
                                 </li>
                             </ul>
-                            </p>
                         </div>
                     </div>
                 </section>
